@@ -1,0 +1,19 @@
+body{
+	background-image: url(/Users/paulinemendoza/Desktop/onlineform/images/bed.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+main{
+	width: 700px;
+	margin: 0 auto;
+	padding: 10px;
+}
+article{
+	width: 700px;
+	background-color: #fff;
+	opacity: 0.6;
+	filter: alpha(opacit=60);
+	padding: 10px;
+	margin: 30px 50px;
+	font-family: Verdana;
+}

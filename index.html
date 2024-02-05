@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sample</title>
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen">
+</head>
+<body>
+	<main>
+	<article>
+		<h1>Ordering A New Bed</h1>
+		<form action="simpleform.php" method="post">
+			Name:<input type="text" name="name" id="name" size="50" maxlength="80"><p>
+			Address:<input type="text" name="address" id="address" size="60" maxlength="100"><p>
+			City:<input type="text" name="city" id="city" size="50"><p>
+			Zipcode:<input type="text" name="zipcode" id="zipcode" size="8"><p>
+			E-mail:<input type="text" name="e-mail" id="e-mail" size="50" maxlength="100"><p>
+			Customer Code:<input type="password" name="code" id="code" size="10"><p>
+		<h3>Size:</h3>
+			<input type="radio" name="size" id="size" value="King">King
+			<input type="radio" name="size" id="size" value="Queen">Queen
+			<input type="radio" name="size" id="size" value="Twin">Twin
+			<input type="radio" name="size" id="size" value="Single">Single
+		<h3>Extras</h3>
+			<input type="checkbox" name="extras[]" id="extras" value="footboard">Footboard
+			<input type="checkbox" name="extras[]" id="extras" value="drawers">Drawers
+			<input type="checkbox" name="extras[]" id="extras" value="casters">Casters
+			<input type="checkbox" name="extras[]" id="extras" value="squeakproof">Squeak Proofing
+		<h3>Type of Wood</h3>
+			<select label="woodtype">
+			<optgroup label="Hard Woods">
+				<option value="Mahogany">Mahogany</option>
+				<option value="Cherry">Cherry</option>
+			</optgroup>
+			<optgroup label="Soft Woods">
+				<option value="Maplewood">Maplewood</option>
+				<option value="Pine">Pine</option>
+				<option value="Fir">Fir</option>
+			</optgroup>
+			</select>
+		<hr>
+		Please share any suggestions or comments with us:<br>
+		<textarea name="comments" id="comments" rows="3" cols="65">Comments?
+		</textarea><p>
+			<input type="submit" name="send" value="Order Bed">&nbsp;
+			<input type="reset" value="Clear">
+		</form>
+	</article>
+	</main>
+</body>
+</html>
