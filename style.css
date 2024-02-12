@@ -1,5 +1,5 @@
 body{
-	background-image: url (bed.jpg);
+	background-image: ("bed.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 }
